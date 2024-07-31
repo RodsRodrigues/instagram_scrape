@@ -16,5 +16,5 @@ def login():
             print(f"Checkpoint required: {e}. Complete the checkpoint on your browser and try again.")
         else:
             print(f"Trying to login failed: {e}")
-
-login()
+    
+    print("Login successful.")
